@@ -15,7 +15,7 @@ model Tasks {
   title        String
   description  String
   date         DateTime
-  durationTime DateTime
+  durationTime String
 
   @@map("tasks")
 }
