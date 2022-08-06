@@ -4,7 +4,7 @@ interface IRequest {
   title: string;
   description: string;
   date: Date;
-  durationTime: number;
+  durationTime: Date;
 }
 
 export class CreateTaskUseCase {
